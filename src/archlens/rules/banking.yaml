@@ -1,0 +1,5 @@
+rules:
+  - {id: BNK-01, domain: banking, severity: high, check: "Payment flows are idempotent with exactly-once or reconciled processing", keywords: [idempoten, reconcil]}
+  - {id: BNK-02, domain: banking, severity: high, check: "Strong customer authentication and fraud controls are defined", keywords: [mfa, sca, fraud]}
+  - {id: BNK-03, domain: banking, severity: high, check: "Compliance with PCI DSS, KYC/AML and data residency is addressed", keywords: [pci, kyc, aml, residency]}
+  - {id: BNK-04, domain: banking, severity: medium, check: "Immutable audit trail for financial transactions", keywords: [audit, immutable, ledger]}

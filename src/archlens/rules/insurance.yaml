@@ -1,0 +1,6 @@
+rules:
+  - {id: INS-01, domain: insurance, severity: high, check: "Policy and claims APIs are versioned and idempotent", keywords: [idempoten, version]}
+  - {id: INS-02, domain: insurance, severity: high, check: "PII and claims data are classified, encrypted and retention-bound", keywords: [pii, encrypt, retention, classif]}
+  - {id: INS-03, domain: insurance, severity: medium, check: "Core platform (policy/billing/claims) is decoupled via an API-first integration layer", keywords: [api-first, api gateway, event]}
+  - {id: INS-04, domain: insurance, severity: medium, check: "Regulatory reporting and audit trail (e.g. IFRS 17, local regulator) are supported", keywords: [ifrs, regulat, audit]}
+  - {id: INS-05, domain: insurance, severity: medium, check: "Broker/partner integrations handle bulk, retries and reconciliation", keywords: [broker, reconcil, bulk]}

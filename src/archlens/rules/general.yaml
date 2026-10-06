@@ -1,0 +1,6 @@
+rules:
+  - {id: G-01, domain: general, severity: high, check: "Every integration has an owner, SLA and defined failure mode", keywords: [sla, owner, failure, retry]}
+  - {id: G-02, domain: general, severity: medium, check: "Decisions record alternatives considered and trade-offs", keywords: [alternative, trade-off, tradeoff]}
+  - {id: G-03, domain: general, severity: high, check: "Authentication, authorization and secrets management are defined", keywords: [oauth, authentication, authorization, rbac, secret, vault]}
+  - {id: G-04, domain: general, severity: medium, check: "Observability: logging, metrics, tracing and alerting are covered", keywords: [logging, metrics, tracing, monitoring, alert]}
+  - {id: G-05, domain: general, severity: medium, check: "Availability, DR, RTO and RPO targets are stated", keywords: [rto, rpo, disaster, availability, failover]}

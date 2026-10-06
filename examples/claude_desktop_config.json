@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "archlens": {
+      "command": "python",
+      "args": ["-m", "archlens.server"],
+      "env": {
+        "ARCHLENS_ADR_DIR": "C:\\Users\\purvi\\Documents\\GitHub\\my-project\\docs\\adr"
+      }
+    }
+  }
+}

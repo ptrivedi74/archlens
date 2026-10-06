@@ -1,0 +1,5 @@
+rules:
+  - {id: HC-01, domain: healthcare, severity: high, check: "PHI is encrypted in transit and at rest with access auditing (HIPAA/GDPR)", keywords: [phi, hipaa, gdpr, encrypt]}
+  - {id: HC-02, domain: healthcare, severity: high, check: "Interoperability uses standards such as HL7 FHIR", keywords: [fhir, hl7]}
+  - {id: HC-03, domain: healthcare, severity: medium, check: "Patient consent management and data minimisation are defined", keywords: [consent, minimi]}
+  - {id: HC-04, domain: healthcare, severity: medium, check: "Clinical AI outputs are reviewed by a clinician (human-in-the-loop)", keywords: [clinician, human-in-the-loop]}

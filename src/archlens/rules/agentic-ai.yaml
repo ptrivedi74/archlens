@@ -1,0 +1,7 @@
+rules:
+  - {id: AI-01, domain: agentic-ai, severity: high, check: "LLM/agent actions have guardrails and human-in-the-loop for high-impact operations", keywords: [guardrail, human-in-the-loop, approval]}
+  - {id: AI-02, domain: agentic-ai, severity: high, check: "Prompts, tool calls and outputs are audit-logged and traceable", keywords: [audit, trace, log]}
+  - {id: AI-03, domain: agentic-ai, severity: high, check: "Prompt-injection and data-exfiltration risks are mitigated (OWASP LLM Top 10)", keywords: [prompt injection, owasp, sanitiz]}
+  - {id: AI-04, domain: agentic-ai, severity: medium, check: "Model evaluation, versioning and fallback strategy defined", keywords: [evaluation, eval, fallback, model version]}
+  - {id: AI-05, domain: agentic-ai, severity: medium, check: "Alignment with NIST AI RMF / EU AI Act risk classification", keywords: [nist, eu ai act, risk classification]}
+  - {id: AI-06, domain: agentic-ai, severity: medium, check: "Agent tool permissions follow least privilege", keywords: [least privilege, scope, permission]}
